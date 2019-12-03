@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+.personal-site-header {
+    height: auto;
+    background-color: #771144;
+    padding: 30px 0px;
+}
+
+.header-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 36px;
+    color: #727711;
+    font-weight: bolder;
+    text-align: left;
+    padding: 0px 30px;
+    vertical-align: middle;
+}
+
+.header-list-container {
+    text-align-last: right;
+    display: inline-block;
+    padding: 0px 20px 0px 180px;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-list-item {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    color: #E3F4B2;
+    font-weight: bold;
+    padding: 0px;
+    display: inline-block;
+    padding: 0px 20px;
+}
