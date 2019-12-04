@@ -36,3 +36,38 @@ body {
     display: inline-block;
     padding: 0px 20px;
 }
+
+.personal-info-container {
+    background-color: #E3F4B2;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.personal-site-avatar {
+    padding: 30px 0px;
+    width: 250px;
+    height: auto;
+}
+
+.personal-info-container-text {
+    
+}
+
+.personal-info-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 48px;
+    color: #c71c71;
+    font-weight: bolder; 
+}
+
+.personal-info-text {
+    font-family: 'Rokkitt', serif;
+    font-size: 28px;
+    color: rgb(170, 218, 27);
+}
+
+.top-text {
+    font-size: 24px;
+    color: rgb(141, 180, 24);
+}
