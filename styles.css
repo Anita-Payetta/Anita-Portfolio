@@ -1,11 +1,12 @@
 body {
     margin: 0px;
+    background-color: #E3F4B2;
 }
 .personal-site-header {
     height: auto;
     background-color: #771144;
     padding: 30px 0px;
-    box-shadow: 10px 0px 15px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
 }
 
 .header-title {
@@ -39,7 +40,6 @@ body {
 }
 
 .personal-info-container {
-    background-color: #E3F4B2;
     height: auto;
     text-align: center;
     padding: 30px;
@@ -100,7 +100,7 @@ body {
 .personal-site-footer {
     font-family: 'Rokkitt', serif;
     background-color: #771144;
-    box-shadow: 0px -5px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 15px rgba(0,0,0,0.5);
 }
 .personal-site-footer-container {
     height: auto;
