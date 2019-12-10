@@ -7,26 +7,27 @@ body {
     background-color: #771144;
     padding: 30px 0px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-title {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 36px;
     color: #727711;
-    font-weight: bolder;
-    text-align: left;
-    padding: 0px 30px;
-    vertical-align: middle;
+    font-weight: bolder;    
 }
 
 .header-list-container {
-    text-align-last: right;
-    display: inline-block;
-    padding: 0px 20px 0px 180px;
+    
 }
 
 .header-list {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 .header-list-item {
@@ -34,8 +35,6 @@ body {
     font-size: 18px;
     color: #E3F4B2;
     font-weight: bold;
-    padding: 0px;
-    display: inline-block;
     padding: 0px 20px;
 }
 
