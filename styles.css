@@ -19,18 +19,23 @@ body {
     font-weight: bolder;    
 }
 
-.header-list {
+.nav-list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 }
 
-.header-list-item {
+.nav-list-item {
     font-size: 18px;
     color: #E3F4B2;
     font-weight: bold;
     padding: 0px 20px;
+}
+
+.nav-link {
+    color: #E3F4B2;
+    text-decoration: none;
 }
 
 .personal-info-container {
