@@ -107,13 +107,15 @@ body {
 .personal-site-footer-container {
     height: auto;
     padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer-list-container {
-    display: inline-block;
     padding: 0px 80px;
     text-align: center;
-    vertical-align: middle;
 }
 
 .footer-list-container-label{
@@ -147,14 +149,9 @@ body {
 }
 
 .footer-copyright-container {
+    font-size: 16px;
+    color: #E3F4B2;
     line-height: 80px;
     background-color: #660e3a;
     text-align: center;
-    vertical-align: middle;
-}
-
-.footer-copyright-text {
-    font-size: 16px;
-    color: #E3F4B2;
-    
 }
