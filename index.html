@@ -35,21 +35,21 @@
 
         </header>
 
-        <div id="about" class="personal-info-container">
+        <section id="about" class="personal-info-container">
             
-                <img class="personal-site-avatar" src='anita-avatar.png' alt="Anita´s avatar"
-                >
+                <img class="personal-site-avatar" src='anita-avatar.png' alt="Anita´s avatar">
+                
                 <div class="personal-info-container-text">
                     <h1 class="personal-info-title">ANABELLA PAYETTA</h1>
                     <p class="personal-info-text top-text">Desarrolladora Frontend/ Profesora de Matemática/ The Sound of Music fan</p>
-
                     <p class="personal-info-text">Aprender es mi mayor motivación. Creo que crear algo es la nueva forma de hacer milagros. Me preocupa no saber música.</p>
                 </div>     
 
-        </div>
+        </section>
 
-        <div id="skills" class="personal-skills-container">
+        <section id="skills" class="personal-skills-container">
             <h2 class="personal-skills-title">SKILLS</h2><p class="personal-skills-clarification">(lo que digo saber ;)</p>
+            
             <div class="skills-icon-container">
                 <img src="bootstrap.png" alt="logo bootstrap" class="personal-skills-icon">
                 <img src="css.png" alt="logo css" class="personal-skills-icon">
@@ -62,11 +62,63 @@
                 <img src="sass.png" alt="logo sass" class="personal-skills-icon">
             </div>
         
-        </div>
+        </section>
+
+        <section id="contact" class="contact-section-container">
+                <h2 class="contact-section-title">CONTACTO</h2>
+                
+                <form class="contact-form" action="">
+                    
+                    <div class="contact-field-container">
+                        <label class="contact-labels" for="username">Nombre completo:</label>
+                        <input type="text" name="nombre_de_usuario" id="username" placeholder="Ingrese nombre completo">
+                    </div>
+                    
+                    <div class="contact-field-container">
+                        <label class="contact-labels" for="email">E-mail:</label>
+                        <input type="email" name="email_de_usuario" id="email" placeholder="usuario@gmail.com">
+                    </div>
+                    
+                    <div class="contact-field-container">
+                        <label class="contact-labels" for="known-at">Dónde me conociste?</label>
+                        <select name="donde_me_conociste" id="known-at">
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Referidos">Referidos</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    </div>
+                    
+                    <fieldset class="contact-field-container">
+                        <legend>Motivo de Contacto:</legend>
+                        <input type="radio" name="motivo_de_contacto" id="oferta_de_empleo">
+                        <label for="oferta_de_empleo">Oferta de empleo</label>
+                        <input type="radio" name="motivo_de_contacto" id="propuesta_de_trabajo">
+                        <label for="propuesta_de_trabajo">Propuesta de trabajo</label>
+                        <input type="radio" name="motivo_de_contacto" id="consulta">
+                        <label for="consulta">Consulta</label>
+                        <input type="radio" name="motivo_de_contacto" id="otro">
+                        <label for="otro">Otro</label>
+                    </fieldset>
+                    
+                    <div class="contact-field-container">
+                        <label class="contact-labels message-label" for="message">Dejá tu mensaje acá:</label>
+                        <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escribe aqui tu mensaje"></textarea>
+                    </div>
+                    
+                    <div class="submit-button-container">
+                        <button class="submit-button" type="submit">Enviar</button>
+                    </div>
+
+                </form>
+
+        </section>
 
         <footer class="personal-site-footer">
 
             <div class="personal-site-footer-container">
+                
                 <div id="contact" class="footer-list-container">
                     <p class="footer-list-container-label">Contact</p>
                     <ul class="footer-list">
@@ -85,8 +137,8 @@
                             <li class="footer-list-item item-icon"><a href="https://www.instagram.com/anitapayetta/?hl=es-la" class="nav-link"><i class="fab fa-instagram list-icon"></i></a></li>
                         </ul>
                     </div>
-                    
                 </div>
+            
             </div>
 
             <div class="footer-copyright-container">
