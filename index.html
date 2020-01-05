@@ -69,16 +69,16 @@
             <section id="contact" class="contact-section-container">
                 <h2 class="contact-section-title">CONTACTO</h2>
                 
-                <form class="contact-form" action="">
+                <form class="contact-form" action="javascript:void(0)">
                     
                     <div class="contact-field-container">
                         <label class="contact-labels" for="username">Nombre completo:</label>
-                        <input type="text" name="nombre_de_usuario" id="username" placeholder="Ingrese nombre completo">
+                        <input type="text" name="nombre_de_usuario" id="username" placeholder="Ingrese nombre completo" required/>
                     </div>
                     
                     <div class="contact-field-container">
                         <label class="contact-labels" for="email">E-mail:</label>
-                        <input type="email" name="email_de_usuario" id="email" placeholder="usuario@gmail.com">
+                        <input type="email" name="email_de_usuario" id="email" placeholder="usuario@gmail.com" required/>
                     </div>
                     
                     <div class="contact-field-container">
@@ -106,7 +106,7 @@
                     
                     <div class="contact-field-container">
                         <label class="contact-labels message-label" for="message">Dejá tu mensaje acá:</label>
-                        <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escribe aqui tu mensaje"></textarea>
+                        <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escribe aqui tu mensaje" required minlength="5"></textarea>
                     </div>
                     
                     <div class="submit-button-container">
