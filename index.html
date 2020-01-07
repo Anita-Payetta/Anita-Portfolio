@@ -8,8 +8,8 @@
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+
     </head>
     
     <body>
@@ -73,12 +73,22 @@
                     
                     <div class="contact-field-container">
                         <label class="contact-labels" for="username">Nombre completo:</label>
-                        <input type="text" name="nombre_de_usuario" id="username" placeholder="Ingrese nombre completo" required/>
+                        <div class="control-input-container">
+                            <input type="text" name="nombre_de_usuario" id="username" placeholder="Ingrese nombre completo" minlength="6" required/>
+                            <i class="fas fa-user input-icon"></i>
+                            <i class="far fa-check-circle input-validation-ok"></i>
+                            <i class="far fa-times-circle input-validation-error"></i>
+                        </div>
                     </div>
                     
                     <div class="contact-field-container">
                         <label class="contact-labels" for="email">E-mail:</label>
-                        <input type="email" name="email_de_usuario" id="email" placeholder="usuario@gmail.com" required/>
+                        <div class="control-input-container">
+                            <input type="email" name="email_de_usuario" id="email" placeholder="usuario@gmail.com" required/>
+                            <i class="far fa-envelope input-icon"></i>
+                            <i class="far fa-check-circle input-validation-ok"></i>
+                            <i class="far fa-times-circle input-validation-error"></i>
+                        </div>
                     </div>
                     
                     <div class="contact-field-container">
